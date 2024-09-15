@@ -211,12 +211,12 @@ gallimg.forEach( img =>{
         popimgbox.className = "pop-img-box";
 
         if( img.alt !== null){
-          // let imgtitle = document.createElement("h3");
-          // let imgtext = document.createTextNode(img.alt);
+          let imgtitle = document.createElement("h3");
+          let imgtext = document.createTextNode(img.alt);
 
-          // imgtitle.appendChild(imgtext);
-          // popimgbox.appendChild(imgtitle);
-
+          imgtitle.appendChild(imgtext);
+          popimgbox.appendChild(imgtitle);
+// //////////////////
           let imgDetailesh2 = document.createElement("span");
           let imgDetailesSpan = document.createTextNode(
             "التفاصيل : الحجم هو 50 مل - السعر بعد الخصم:200 جنيه "
