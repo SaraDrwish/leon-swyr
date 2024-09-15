@@ -219,7 +219,7 @@ gallimg.forEach( img =>{
 // //////////////////
           let imgDetailesh2 = document.createElement("span");
           let imgDetailesSpan = document.createTextNode(
-            "التفاصيل : الحجم هو 50 مل - السعر بعد الخصم:200 جنيه "
+            "التفاصيل : السعر بعد الخصم:200 جنيه "
           );
           popimgbox.appendChild(imgDetailesh2);
           popimgbox.appendChild(imgDetailesSpan);
