@@ -538,6 +538,21 @@ line-height: 1.5;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
 }
+.gallary button{
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    width: 22%;
+    cursor: pointer;
+    background-color: var(--maincolor);
+    color: #5D4545;
+    font-weight: 400;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
 
 .pop-overlay{
     position: fixed;
