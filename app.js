@@ -139,7 +139,7 @@ function randomizimgs(){
 
     let landing = document.querySelector(".landing");
 
-    let imgArray = ["XIx9yfP.jpg","284467.jpg","wp2656336.jpg","21.jpg"];
+    let imgArray = ["36.jpg", "15.jpg", "12.jpg", "21.jpg", "18.jpg"];
 
         bginterval = setInterval(()=>{
         
