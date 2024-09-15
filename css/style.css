@@ -740,7 +740,7 @@ display: block;
     text-align: center;
     margin: auto;
     padding: 2%;
-    line-height: 4rem;
+    line-height: 3rem;
     font-size: 22px;
     color: #5D4545;
     background-color: #ffc7c8a3;
@@ -768,8 +768,8 @@ display: block;
 .contactText button{
     background-color: var(--maincolor);
     color: white;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.8rem;
+    /* margin: 1rem; */
     width: 40%;
     border: none;
     font-size: large;
