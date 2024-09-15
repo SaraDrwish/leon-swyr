@@ -139,7 +139,8 @@ function randomizimgs(){
 
     let landing = document.querySelector(".landing");
 
-    let imgArray = ["36.jpg", "15.jpg", "12.jpg", "21.jpg", "18.jpg"];
+    let imgArray = ["36.jpg", "21.jpg", "12.jpg", "18.jpg"];
+    // let imgArray = ["36.jpg", "15.jpg", "12.jpg", "21.jpg", "18.jpg"];
 
         bginterval = setInterval(()=>{
         
@@ -195,7 +196,7 @@ window.onscroll = function(){
 // ------------------------------
 
 
-let gallimg = document.querySelectorAll(".gallary  img");
+let gallimg = document.querySelectorAll(".gallary .imgs-box-gal img");
 
 gallimg.forEach( img =>{
 
@@ -240,14 +241,15 @@ gallimg.forEach( img =>{
 });
 
 document.addEventListener("click", function(e){
-    
-    if(e.target.className == "closebtn"){
-        e.target.parentNode.remove();
+  if (e.target.className == "closebtn") {
+    e.target.parentNode.remove();
+    document.querySelector(".pop-overlay").remove();
+  }
 
-        document.querySelector(".pop-overlay").remove();
-
-    }
-
+  if (e.target.className == "pop-overlay") {
+    document.querySelector(".pop-overlay").remove();
+    document.querySelector(".pop-img-box").remove();
+  }
 });
 
 
