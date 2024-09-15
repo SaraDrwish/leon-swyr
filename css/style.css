@@ -538,12 +538,16 @@ line-height: 1.5;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
 }
-.gallary button{
+.gallary a{
     border: none;
     padding: 1rem;
-    margin: 1rem;
+    margin: 4rem auto;
     width: 22%;
-    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    /* cursor: pointer; */
     background-color: var(--maincolor);
     color: #5D4545;
     font-weight: 400;
