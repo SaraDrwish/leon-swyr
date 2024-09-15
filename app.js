@@ -210,18 +210,22 @@ gallimg.forEach( img =>{
         let popimgbox = document.createElement("div");
         popimgbox.className = "pop-img-box";
 
-       if( img.alt !== null){
+        if( img.alt !== null){
+          // let imgtitle = document.createElement("h3");
+          // let imgtext = document.createTextNode(img.alt);
 
-            let imgtitle = document.createElement("h3");
+          // imgtitle.appendChild(imgtext);
+          // popimgbox.appendChild(imgtitle);
 
-            let imgtext = document.createTextNode(img.alt);
-
-            imgtitle.appendChild(imgtext);
-
-            popimgbox.appendChild(imgtitle);
-
-          }
-
+          let imgDetailesh2 = document.createElement("span");
+          let imgDetailesSpan = document.createTextNode(
+            "التفاصيل : الحجم هو 50 مل - السعر بعد الخصم:200 جنيه "
+          );
+          popimgbox.appendChild(imgDetailesh2);
+          popimgbox.appendChild(imgDetailesSpan);
+        }
+        
+        
         let popimg = document.createElement("img");
 
         popimg.src = img.src;
