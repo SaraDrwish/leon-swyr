@@ -682,9 +682,14 @@ line-height: 1.5;
 .gallary .imgs-box-gal{
   grid-template-columns: repeat(1, 1fr);
   gap: 0.5rem;
-  }
+}
+.gallary .imgs-box-gal{
+    margin : auto ;  
+}
 .gallary .imgs-box-gal img{
-  width: 16rem;
+  width: 14rem;
+  height: 16rem;
+  margin : auto ;
   }
 }
 /* ------------------------------------ */
@@ -942,7 +947,7 @@ height: 150px;
     justify-content: center;
     text-align:center;
     text-decoration:none;
-    color :#FFBED2;
+    color: var(--maincolor);
     gap:2rem ;
     font-size:large;
 }
