@@ -447,11 +447,13 @@ flex: 1;
 padding: 3% 4%;
 text-align: right;
 }
-.aboutus .infoboxabout > h4:nth-child(2){
+.aboutus .infoboxabout > h4:nth-child(2) ,.aboutus  .infoboxabout > h4:nth-child(6){
  color: var(--maincolor); !important;
 }
-.aboutus > p:nth-child(2){
+.aboutus > p:nth-child(2) ,.aboutus .infoboxabout > h6{
  color:#ffbed2 !important;
+ font-size:larger;
+ font-weight: bold;
 }
 /* .aboutus .infoboxabout p{
     color: rgb(100, 53, 53);
