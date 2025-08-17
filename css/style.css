@@ -542,7 +542,7 @@ line-height: 1.5;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  height: 3.5rem; 
+  height: 4rem; 
   overflow:hidden ;
 }
 .gallary .imgs-box-gal h5::after {
