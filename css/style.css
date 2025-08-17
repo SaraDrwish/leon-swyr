@@ -659,6 +659,13 @@ line-height: 1.5;
     border: 2px solid var(--maincolor);
 }
 
+@media (max-width:767px) {
+
+.gallary .imgs-box-gal{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.5rem;
+  }
+}
 
 /* ------------------------------------ */
 
