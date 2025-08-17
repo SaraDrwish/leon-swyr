@@ -536,11 +536,13 @@ line-height: 1.5;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+  height: 2.5rem; 
 }
 .gallary .imgs-box-gal h5::after {
   content: "";
   display: block;
-  height: 0.3rem;  
+  height: 0.2rem;  
+  width:2rem;
   margin-top: 0.6rem;  
   border-radius: 2px;
   background: linear-gradient(90deg, #ffbed2, #FCDC98, #655151);
