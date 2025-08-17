@@ -16,7 +16,12 @@ body{
     /* font-family: " work sans"  , sans-serif; */ 
     font-family: 'Open Sans', sans-serif;
 }
-
+a{
+    text-decoration:none;
+    color :#FFBED2;
+    display:flex ;
+    font-size:large;
+}
 .container{
     margin: auto;
     width: 95%;
