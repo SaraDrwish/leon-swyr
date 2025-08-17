@@ -448,10 +448,10 @@ padding: 3% 4%;
 text-align: right;
 }
 .aboutus .infoboxabout:nth-child(4){
-color:#93796d;
+color:#93796d !important;
 }
 .aboutus .infoboxabout:nth-child(5){
-color:#ffbed2;
+color:#ffbed2 !important;
 }
 /* .aboutus .infoboxabout p{
     color: rgb(100, 53, 53);
@@ -542,15 +542,15 @@ line-height: 1.5;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  height: 3rem; 
+  height: 3.5rem; 
   overflow:hidden ;
 }
 .gallary .imgs-box-gal h5::after {
   content: "";
   display: block;
-  height: 0.2rem;  
-  width:6rem;
-  margin: 0.6rem auto 0.2rem auto;
+  height: 0.3rem;  
+  width:8rem;
+  margin: 0.6rem auto 0.3rem auto !important;
   border-radius: 0.2rem;
   background: linear-gradient(90deg, #ffbed2, #FCDC98, #655151);
 }
