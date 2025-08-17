@@ -491,10 +491,12 @@ line-height: 1.5;
 .aboutus .imgboxabout{
     flex: 1;
     text-align: center;
+    margin:auto ;
 }
 .aboutus .imgboxabout img{
-   width: 55%;
+   width: 71%;
    height: 85%;
+   margin:auto ;
    border-radius:4rem ;
    -webkit-border-radius:4rem ;
    -moz-border-radius:4rem ;
