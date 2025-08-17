@@ -900,6 +900,14 @@ height: 150px;
     -o-transition: all .6s;
 }
 
+.soi-ico , .soi-ico a i{
+    margin:auto;
+    text-align:center;
+    text-decoration:none;
+    color :#FFBED2;
+    display:flex ;
+    font-size:large;
+}
 
 /* ------------------------------------ */
 
